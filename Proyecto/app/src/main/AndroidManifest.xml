@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.jaen.proyecto" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Main"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- Declaramos la actividad secundaria -->
+        <activity android:label="@string/actividad" android:name=".Actividad"></activity>
+        <activity android:name=".GestionarCliente" android:windowSoftInputMode="stateVisible|adjustResize"></activity>
+        <activity android:name=".GestionarFactura" android:windowSoftInputMode="stateVisible|adjustResize"></activity>
+        <activity android:label="Cliente" android:name=".ClienteList"></activity>
+        <activity android:label="Factura" android:name=".FacturaList"></activity>
+    </application>
+
+</manifest>

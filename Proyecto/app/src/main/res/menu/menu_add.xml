@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/add" android:title="Añadir"
+        android:icon="@drawable/ic_action_add">
+        <menu>
+            <item android:id="@+id/anadirCliente"
+                android:title="Añadir Cliente" />
+            <item android:id="@+id/anadirFactura"
+                android:title="Añadir Factura" />
+        </menu>
+    </item>
+</menu>
